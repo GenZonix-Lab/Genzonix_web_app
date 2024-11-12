@@ -1,0 +1,375 @@
+body{
+    background-color:#050a30 ;
+    color: aliceblue;
+}
+header{
+    position: sticky;
+    background-color: #021A34;
+    height: 90px;
+    top: 0px;
+    border-bottom: 1px solid white;
+    overflow: visible;
+    z-index: 1;
+}
+header ul {
+    list-style: none;
+    float: right; 
+}
+header ul li{
+    float: left; 
+    padding-right: 40px;
+    padding-bottom: 0px;
+    margin: 0px;
+
+}
+
+#slide11 a{
+    text-decoration: none;
+    color: #050a30;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+header ul li :hover{
+    cursor: pointer;
+    color:white;
+    transition: 0.2s;
+    transform: scale(1.1);
+    text-shadow: 0 0 1px;
+}
+#slide1 {
+    width: 100%;
+    height: 780px;
+    background-color: #050a30;
+    background-image: url(assert/pic1.svg);
+
+}
+#slide11{
+    width: 100%;
+    height: 20px;
+    font-size: 50px;
+    margin-right: 100px;
+}
+#slide11 h1{
+    position: relative;
+    right: 0px;
+    text-align: right;
+    margin-top: 100px;
+    padding-right: 20px;
+}
+#slide11 button{
+    color: #050a30;
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 10%;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: bolder ;
+}
+#slide12{
+    position: absolute;
+    left:100px;
+    bottom:50px;
+}
+#slide2 {
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 100%;
+    height: 850px;
+    background-color: #cae8ff;
+    color: #050a30;
+}
+
+#slide21{
+    font-size: 30px;
+    padding: 0px 50px 0px 50px;
+}
+#slide21 h2{
+    font-weight: lighter;
+}
+
+#slide22 img{
+    margin-right: 50px;
+    width: 500px;
+    border: 2px ridge #021A34;
+    border-radius: 60px;
+}
+#slide3 {
+    width: 100%;
+    height: 850px;
+    background-color: #5cb6f9;
+    text-align: center;
+    font-size: 80px;
+    color: #050a30;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5%;
+}
+#slide32{
+    display: grid;
+    grid-template-columns: 30.666% 30.666% 30.666%;
+    grid-gap: 2%;
+    background-color: transparent;
+    font-size: 20px;
+    align-content: center;
+}
+
+#slide32 .box{
+    color: #cae8ff;
+    margin: 50px;
+    height: 650px;
+    border-radius: 20px;
+}
+#slide32 .box:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+#slide32 .box img{
+    width: 80%;
+    margin-top: 30px;
+    color: #050a30;
+    border-radius:10px ridge #021A34;
+    box-shadow: 0px 0px 10px;
+    border-radius: 250px;
+}
+
+#slide32 .box span h2{
+    font-weight: bolder;
+    margin: 0px 80px;
+    color:#050a30;
+    text-shadow: 0 0 1px;
+}
+
+#slide32 .box span p{
+    font-weight: lighter;
+    margin: 0px 80px;
+    color: #2f387a;
+    text-shadow: 0 0 1px;
+}
+
+#slide4 {
+    width: 100%;
+    height: 850px;
+    background-color: #ebeff8;
+    text-align: center;
+    font-size: 80px;
+    color: #050a30;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5%;
+}
+#slide42{
+    display: grid;
+    grid-template-columns: 30.666% 30.666% 30.666%;
+    grid-gap: 2%;
+    background-color: transparent;
+    font-size: 20px;
+    align-content: center;
+}
+
+#slide42 .box{
+    color: #050a30;
+    margin: 50px;
+    height: 680px;
+    border-radius: 20px;
+}
+#slide42 .box:hover{
+    box-shadow: 0px 0px 20px;
+}
+
+#slide42 .box img{
+    width: 80%;
+    margin-top: 30px;
+    color: #050a30;
+    border-radius:10px ridge #021A34;
+    box-shadow: 0px 0px 10px;
+    border-radius: 250px;
+}
+
+#slide42 .box span h2{
+    font-weight: bolder;
+    margin: 0px 80px;
+    color:#050a30;
+    text-shadow: 0 0 1px;
+}
+
+#slide42 .box span p{
+    font-weight: lighter;
+    margin: 0px 80px;
+    color: #2f387a;
+    text-shadow: 0 0 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#remove{
+    color:currentColor;
+    text-decoration: none;
+    
+}
+
+#form1{
+    padding-top: 1px;
+    text-align: center;
+    background-color: #0a407970;
+    font-size: 20px;
+}
+
+#form1 input{
+    font-size: larger;
+}
+
+#emailip{
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    border: 0px;
+    padding: 5px 20px 5px 20px;
+    background-color: #d7e1f8;
+    font-weight: lighter;
+    color: #3e434971;
+}
+
+#btnop{
+    border-radius: 20px;
+    padding: 5px 20px 5px 20px;
+    font-weight: bolder;
+    color: #021A34;
+    border: 0px solid white;
+}
+#btnop:hover{
+    color: whitesmoke;
+    background-color:#be0b0b;
+    cursor: pointer;
+}
+
+section{
+    position: relative;
+    display: grid;
+    grid-template-columns: 33.3333% 33.33333% 33.333333%;
+    background-color: #0a407970;
+    width: 100%;
+    height: auto;
+    font-size: 150%;
+    padding-bottom: 20px;
+}
+section div{
+    text-align: center;
+}
+
+footer div ul{
+    text-align: left;
+    list-style-type: none;
+    list-style: none;
+    padding-left: 30%;
+    
+}
+footer div ul h3{
+    cursor: default;
+}
+footer div ul li{
+    margin-bottom: 10px;
+}
+footer div ul li .round{
+    border: 2px solid none;
+    border-radius: 25px;
+    width:40px;
+}
+footer div ul li .sqr{
+    border: 5px solid none;
+    border-radius: 10px;
+    width:40px;
+}
+footer p{
+    grid-column: 2;
+    position: relative;
+    text-align: center;
+    padding: 2px;    
+    margin-bottom: 10px;
+    cursor: default;
+}
+#Fbox1{
+        position: relative;
+}
+#Fbox2{
+    position: relative;
+}
+
+#Fbox3{
+    position: relative;
+}
+.Qlnk{
+    cursor: pointer;
+}
+.Qlnk:hover{
+    transition: 1s;
+    color:#ddbef1;
+
+}
+.Slnk{
+    cursor: pointer;
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+}
+.Slnk:hover{
+    transition: 0.1s;
+    transform: scale(1.1);
+}
+
+.fa-phone, .fa-envelope, .fa-whatsapp, .fa-map-marker{
+    font-size:24px;
+    color:rgb(237, 197, 255);
+    background-color: transparent; 
+    width: 30px;
+    text-align: center;
+    border-radius: 6px;
+}
+.fa-bars{
+    font-size: 48px;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+  
+.hover-underline-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.5px;
+    bottom: 0;
+    left: 0;
+    background-color: whitesmoke;
+    transition: transform 0.35s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+  }
+  
+  .hover-underline-animation.left::after {
+    transform-origin: bottom left;
+  }
+  
+  .hover-underline-animation.left:hover::after {
+    transform-origin: bottom left;
+  }
