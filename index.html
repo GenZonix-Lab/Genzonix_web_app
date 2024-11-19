@@ -1,26 +1,43 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta name="keywords" content="Robotics">
+    <meta name="keywords" content="genzonix">
+    <meta name="keywords" content="genzonix mayiladuthurai">
+    <meta name="keywords" content="Mayiladuthurai">
+    <meta name="keywords" content="Robotics mayiladuthurai">
+    <meta name="keywords" content="Projects">
+    <meta name="keywords" content="DIY kit">
+    <meta name="keywords" content="STEM">
+    <meta name="keywords" content="Education">
     <link rel="icon" type="image/svg+xml" href="/src/assert/genz_icon.avif" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">        
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="src/style.css">
-    <meta name="keywords" content="genzonix">
     <title>GenZonix</title>
   </head>
   <body>
     <header>
-      <img src="src/assert/Genzonix.jpg" alt="Logo" align="left" width="200px">
-      <ul>
-          <li><h2>Home</h2></li>
-          <li><h2>Product</h2></li>
-          <li><h2>Project</h2></li>
-          <li><h2>Career</h2></li>
-          <li><h2>Contact</h2></li>
-      </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark main-bg" >
+            <div class="container-fluid">
+              <a href="#"><img src="src/assert/Genzonix.jpg" class="img-fluid" alt="Logo" align="left" width="150px"></a>
+              <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                  <li><a href="#" class="nav-item nav-link"><h2>Home</h2></a></li>
+                  <li><a href="#" class="nav-item nav-link"><h2>Product</h2></a></li>
+                  <li><a href="#" class="nav-item nav-link"><h2>Project</h2></a></li>
+                  <li><a href="#" class="nav-item nav-link"><h2>Career</h2></a></li>
+                  <li><a href="#" class="nav-item nav-link"><h2>About</h2></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
   </header>
 
   <div id="slide1">
@@ -105,64 +122,67 @@
 
 
   <footer>
-    <div id="form1">
-        <h1>Subscribe to get Updates</h1>
-        <form action="/submit">
-            <input type="email" name="email" id="emailip" placeholder="Enter your Gmail Address" required>
-            <input type="button" id="btnop" value="SUBSCRIBE">
-        </form>
+    <div class="container">
+        <div id="form1">
+            <h1>Subscribe to get Updates</h1>
+            <form action="/submit">
+                <input type="email" name="email" id="emailip" placeholder="Enter your Gmail Address" required>
+                <input type="button" id="btnop" value="SUBSCRIBE">
+            </form>
 
-    </div>
-    <section>
-    <div id="Fbox1">
-        
-        <ul>
-            <h3>Contact</h3>
-            <li><a href="tel:+91 7358903892" id="remove" ><i class="fa fa-phone"></i> <em class="hover-underline-animation left">+91 7358903892</em></a></li>
-            <li><a href="mailto:info@genzonix.in" id="remove"><i class="fa fa-envelope"></i> <em class="hover-underline-animation left">info@genzonix.in</em></a><br></li>
-            <li><a href="https://wa.me/message/B5MH4M7H4WSMO1" id="remove"><i class="fa fa-whatsapp"></i><em class="hover-underline-animation left">+91 7358903892</em></a></li>
-            <li>
-                <a href="https://www.google.co.in/maps/dir//genzonix+mayiladuthurai+address/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3a55276de4cf8471:0xc5c3f8283be82ab5?sa=X&ved=1t:3061&ictx=111" id="remove" target="_blank"><i class="fa fa-map-marker"></i><em class="hover-underline-animation left">Mayiladuthurai</em></a>
-            </li>
-        </ul>
-        
-        
-        
-        <ul>
-            <h3>Social</h3>
-            <li class="Slnk"><img src="src/assert/facebook.png" alt="facebook" class="round"></li>
-            <li class="Slnk"><img src="src/assert/linkedin.png" alt="linkedin" class="sqr"></li>
-            <li class="Slnk"><img src="src/assert/instagram.png" alt="instagram" class="sqr" ></li>
-            <li class="Slnk"><img src="src/assert/youtube.jpg" alt="youtube" class="round"></li>
-            <li class="Slnk"><img src="src/assert/discord.jpeg" alt="Discord" class="round"></li>
-        </ul>
-    </div>
-    <div id="Fbox2">
-        
-        <ul>
-            <h3>Services</h3>
-            <li id="iot" class="Qlnk"><em class="hover-underline-animation left">IoT Kit</em></li>
-            <li id="cloud" class="Qlnk"><em class="hover-underline-animation left">Cloud Kit</em></li>
-            <li id="robotics" class="Qlnk"><em class="hover-underline-animation left">Robotics Kit</em></li>
-            <li id="AI" class="Qlnk"><em class="hover-underline-animation left">AI Kit</em></li>
-        </ul>
+        </div>
+        <section class="row g-8">
+        <div id="Fbox1" class="col-md-6 col-lg-4 col-xl-3">
+            
+            <ul>
+                <h3><b>Contact</b></h3>
+                <li><a href="tel:+91 7358903892" id="remove" ><i class="fa fa-phone"></i> <em class="hover-underline-animation left">+91 7358903892</em></a></li>
+                <li><a href="mailto:info@genzonix.in" id="remove"><i class="fa fa-envelope"></i> <em class="hover-underline-animation left">info@genzonix.in</em></a><br></li>
+                <li><a href="https://wa.me/message/B5MH4M7H4WSMO1" id="remove"><i class="fa fa-whatsapp"></i><em class="hover-underline-animation left">+91 7358903892</em></a></li>
+                <li>
+                    <a href="https://www.google.co.in/maps/dir//genzonix+mayiladuthurai+address/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3a55276de4cf8471:0xc5c3f8283be82ab5?sa=X&ved=1t:3061&ictx=111" id="remove" target="_blank"><i class="fa fa-map-marker"></i><em class="hover-underline-animation left">Mayiladuthurai</em></a>
+                </li>
+            </ul>
+        </div>
+        <div id="Fbox2" class="col-md-6 col-lg-4 col-xl-3">
+            
+            <ul>
+                <h3><b>Services</b></h3>
+                <li id="iot" class="Qlnk"><em class="hover-underline-animation left">IoT Kit</em></li>
+                <li id="cloud" class="Qlnk"><em class="hover-underline-animation left">Cloud Kit</em></li>
+                <li id="robotics" class="Qlnk"><em class="hover-underline-animation left">Robotics Kit</em></li>
+                <li id="AI" class="Qlnk"><em class="hover-underline-animation left">AI Kit</em></li>
+            </ul>
 
-    </div>
-    <div id="Fbox3">
-        
-        <ul>
-            <h3>Quick Links</h3>
-            <li id="About" class="Qlnk"><em class="hover-underline-animation left">About us</em></li>
-            <li id="Projects" class="Qlnk"><em class="hover-underline-animation left">Projects</em></li>
-            <li id="FAQ" class="Qlnk"><em class="hover-underline-animation left">Faqs</em></li>
-            <li id="Career" class="Qlnk"><em class="hover-underline-animation left">Career</em></li>
-            <li id="Shop" class="Qlnk"><em class="hover-underline-animation left">shop</em></li>
-        </ul>
+        </div>
+        <div id="Fbox3" class="col-md-6 col-lg-4 col-xl-3">
+            
+            <ul>
+                <h3><b>Quick Links</b></h3>
+                <li id="About" class="Qlnk"><em class="hover-underline-animation left">About us</em></li>
+                <li id="Projects" class="Qlnk"><em class="hover-underline-animation left">Projects</em></li>
+                <li id="FAQ" class="Qlnk"><em class="hover-underline-animation left">Faqs</em></li>
+                <li id="Career" class="Qlnk"><em class="hover-underline-animation left">Career</em></li>
+                <li id="Shop" class="Qlnk"><em class="hover-underline-animation left">shop</em></li>
+            </ul>
 
+        </div>
+        <div id="Fbox4" class="col-12">
+            
+            <ul>
+                <h3><b>Social</b></h3>
+                <li class="Slnk"><img src="src/assert/facebook.png" alt="facebook" class="round"></li>
+                <li class="Slnk"><img src="src/assert/linkedin.png" alt="linkedin" class="sqr"></li>
+                <li class="Slnk"><img src="src/assert/instagram.png" alt="instagram" class="sqr" ></li>
+                <li class="Slnk"><img src="src/assert/youtube.jpg" alt="youtube" class="round"></li>
+                <li class="Slnk"><img src="src/assert/discord.jpeg" alt="Discord" class="round"></li>
+            </ul>
+
+        </div>
+        </section>
+        <p>Copyright &#xa9; 2024, Genzonix. All Rights Reserved.</p>
     </div>
-</section>
-    <p>Copyright &#xa9; 2024, Genzonix. All Rights Reserved.</p>
 </footer>
-    <!-- <script type="module" src="/src/main.jsx"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

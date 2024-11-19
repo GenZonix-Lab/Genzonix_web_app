@@ -2,45 +2,31 @@ body{
     background-color:#050a30 ;
     color: aliceblue;
 }
+.h2, h2 {
+    font-size: calc(1.025rem + .9vw);
+  }
 header{
     position: sticky;
-    background-color: #021A34;
-    height: 90px;
     top: 0px;
     border-bottom: 1px solid white;
     overflow: visible;
     z-index: 1;
 }
-header ul {
-    list-style: none;
-    float: right; 
+.main-bg{
+    background-color:#021A34 ;
 }
-header ul li{
-    float: left; 
-    padding-right: 40px;
-    padding-bottom: 0px;
-    margin: 0px;
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(160, 178, 255);
+  }
 
-}
-
-#slide11 a{
-    text-decoration: none;
-    color: #050a30;
-}
-
-header ul li a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-
-header ul li :hover{
-    cursor: pointer;
-    color:white;
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255);
     transition: 0.2s;
     transform: scale(1.1);
     text-shadow: 0 0 1px;
 }
+
+
 #slide1 {
     width: 100%;
     height: 780px;
@@ -53,6 +39,10 @@ header ul li :hover{
     height: 20px;
     font-size: 50px;
     margin-right: 100px;
+}
+#slide11 a{
+    text-decoration: none;
+    color: #050a30;
 }
 #slide11 h1{
     position: relative;
