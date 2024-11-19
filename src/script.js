@@ -35,3 +35,4 @@ slide4_p3.innerText="Our kits are competitively priced, balancing affordability 
 
 
 
+console.log("connected to Genzonix")
