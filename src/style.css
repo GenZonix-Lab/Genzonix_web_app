@@ -204,12 +204,11 @@ a {
 #form1{
     padding: 60px;
     text-align: center;
-    font-size: 16px;
+    font-size: 100%;
 }
 
 #emailip{
     border-radius: 20px;
-    width:min-content;
     text-align: center;
     border: 0px;
     padding: 5px 20px 5px 20px;
