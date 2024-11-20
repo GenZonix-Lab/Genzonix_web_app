@@ -194,6 +194,9 @@ a:hover {
 a {
     color: #ffffff8e;
 }
+.root{
+    width: max-content;
+}
 #form1{
     padding: 60px;
     text-align: center;
