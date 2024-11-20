@@ -26,84 +26,74 @@ header{
     transform: scale(1.03);
     text-shadow: 0 0 1px;
 }
-
+.title{
+    font-size: 80px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 
 #slide1 {
-    width: 100%;
-    height: 780px;
+    height: max-content;
     background-color: #050a30;
-    background-image: url(assert/pic1.svg);
-
 }
 #slide11{
     width: 100%;
-    height: 20px;
     font-size: 50px;
     margin-right: 100px;
+    text-align: center;
 }
 #slide11 a{
     text-decoration: none;
     color: #050a30;
 }
-#slide11 h1{
-    position: relative;
-    right: 0px;
-    text-align: right;
-    margin-top: 100px;
-    padding-right: 20px;
+#slide11 h1,#slide12 {
+    text-align: center;
+    padding: 55px 0px;
 }
+
 #slide11 button{
     color: #050a30;
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    position: absolute;
-    right: 10%;
+    text-align: center;
     font-size: 30px;
     padding: 30px;
+    margin-top: 50px;
     font-weight: bolder ;
-}
-#slide12{
-    position: absolute;
-    left:100px;
-    bottom:50px;
+    border-radius: 25px;
 }
 #slide2 {
-    display: grid;
-    grid-template-columns: 70% auto;
-    width: 100%;
-    height: 850px;
+    padding: 50px 0px;
+    height: max-content;
     background-color: #cae8ff;
     color: #050a30;
 }
 
 #slide21{
-    font-size: 30px;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px;
 }
 #slide21 h2{
     font-weight: lighter;
+    margin:  50px 0px;
 }
 
 #slide22 img{
+    float: right;
     margin-right: 50px;
-    width: 500px;
+    width: 100%;
+    margin:  50px 0px;
     border: 2px ridge #021A34;
     border-radius: 60px;
 }
 #slide3 {
     width: 100%;
-    height: 850px;
+    height: max-content;
     background-color: #5cb6f9;
     text-align: center;
-    font-size: 80px;
     color: #050a30;
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding-top: 5%;
 }
 #slide32{
-    display: grid;
-    grid-template-columns: 30.666% 30.666% 30.666%;
-    grid-gap: 2%;
     background-color: transparent;
     font-size: 20px;
     align-content: center;
@@ -111,17 +101,19 @@ header{
 
 #slide32 .box{
     color: #cae8ff;
-    margin: 50px;
-    height: 650px;
+    margin: 50px 0px;
+    padding: 20px;
+    height: max-content;
     border-radius: 20px;
 }
 #slide32 .box:hover{
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 5px;
 }
 
 #slide32 .box img{
     width: 80%;
     margin-top: 30px;
+    padding: 2px;
     color: #050a30;
     border-radius:10px ridge #021A34;
     box-shadow: 0px 0px 10px;
@@ -137,7 +129,7 @@ header{
 
 #slide32 .box span p{
     font-weight: lighter;
-    margin: 0px 80px;
+    margin: 0px 50px;
     color: #2f387a;
     text-shadow: 0 0 1px;
 }
@@ -147,11 +139,11 @@ header{
     height: max-content;
     background-color: #ebeff8;
     text-align: center;
-    font-size: 80px;
     color: #050a30;
     font-weight: bolder;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 #slide42{
     align-items: center;
     background-color: transparent;
@@ -160,21 +152,22 @@ header{
 
 #slide42 .box{
     color: #050a30;
-    margin: 50px;
+    margin : 50px 0px;
     padding: 20px;
     height: max-content;
     border-radius: 20px;
 }
 #slide42 .box:hover{
-    box-shadow: 0px 0px 20px;
+    box-shadow: 0px 0px 5px;
 }
 
 #slide42 .box img{
     width: 80%;
-    margin-top: 5px;
+    margin-top: 30px;
+    padding:2px;
     color: #050a30;
     border-radius:10px ridge #021A34;
-    box-shadow: 0px 0px 10px;
+    box-shadow: 0px 0px 20px;
     border-radius: 250px;
 }
 
@@ -204,7 +197,7 @@ a {
 #form1{
     padding: 60px;
     text-align: center;
-    font-size: 100%;
+    font-size: calc(30% + 0.01vw + 1vh);
 }
 
 #emailip{

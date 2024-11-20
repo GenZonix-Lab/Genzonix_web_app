@@ -41,46 +41,47 @@
   </header>
 
   <div id="slide1">
-    <div id="slide11">
-        <h1>Innovative Kits<br>for a Smarter<br>Generation</h1>
+    <div id="slide11" class="row-1">
+        <h1 class="title">Innovative Kits for a Smarter Generation</h1>
         <button type="button"><a href="#slide3">EXPLORE</a></button>
     </div>
-    <div id="slide12">
+    <div id="slide12" class="row-2">
         <img src="src/assert/pic2.png">
     </div>
 </div>
 
-<div id="slide2">
-    <div id="slide21">
-        <h1>Empowering Innovators: The Genzonix Story</h1>
-        <h2>At Genzonix, we empower the next generation of innovators through hands-on STEM learning. Our DIY kits and solutions in robotics, AI, Cloud, and IoT bridge the gap between theory and practice, making advanced technology accessible to students, educators, and hobbyists.</h2> 
+<div id="slide2" class="container-fluid">
+    <div class="row">
+        <div id="slide21" class="col-12 col-lg-9">
+            <h1 class="title">Empowering Innovators: The Genzonix Story</h1>
+            <h2>At Genzonix, we empower the next generation of innovators through hands-on STEM learning. Our DIY kits and solutions in robotics, AI, Cloud, and IoT bridge the gap between theory and practice, making advanced technology accessible to students, educators, and hobbyists.</h2> 
 
-         <h2>We focus on fostering creativity and problem-solving through experiential learning, equipping users with the tools to bring their ideas to life. Genzonix is dedicated to shaping future thinkers by promoting education, innovation, and exploration in a technology-driven world.</h2>
-    </div>
-    <div id="slide22">
-        <img src="src/assert/child_pic.avif" alt="">
+            <h2>We focus on fostering creativity and problem-solving through experiential learning, equipping users with the tools to bring their ideas to life. Genzonix is dedicated to shaping future thinkers by promoting education, innovation, and exploration in a technology-driven world.</h2>
+        </div>
+        <div id="slide22"  class="col-12 col-lg-3">
+            <img src="src/assert/child_pic.avif" alt="">
+        </div>
     </div>
 </div>
 <div id="slide3">
-    <div >
-        <span>DIY INNOVATIVE</span>
-    </div>
-    <section id="slide32">
-        <div class="box">
+    <div ><span class="title">DIY INNOVATIVE</span></div>
+    <div class="container-fluid"></div>
+    <section id="slide32" class="row">
+        <div class="box col-sm-12 col-lg-4">
             <img src="src/assert/IoT_pic.jpg" alt="">
             <span>
                 <h2>DIY IoT</h2>
                 <p> Create smart, connected devices with easy-to-build projects that teach the fundamentals of wireless control and sensor integration, ideal for smart home and automation applications.</p>
             </span>
         </div>
-        <div class="box">
+        <div class="box col-sm-12 col-lg-4">
             <img src="src/assert/AI_pic.jpg" alt="">
             <span>
                 <h2>AI Computer Vision</h2>
                 <p>Dive into image and video analysis with beginner-friendly Python projects that bring real-world AI applications, like object detection and facial recognition, within reach.</p>
             </span>
         </div>
-        <div class="box">
+        <div class="box col-sm-12 col-lg-4">
             <img src="src/assert/cloud_pic.jpg" alt="">
             <span>
                 <h2>Cloud Projects </h2>
@@ -94,7 +95,7 @@
     <div class="title"><span>Why Genzonix?</span></div>
     <div class="container-fluid">
     <section id="slide42" class="row">
-        <div class="box col-sm-12 col-lg-3">
+        <div class="box col-sm-12 col-lg-4">
             <img src="src/assert/IoT_pic.jpg" alt="">
             <span>
                 <h2 id="slide4_head1"></h2>
@@ -108,7 +109,7 @@
                 <p id="slide4_para2"></p>
             </span>
         </div>
-        <div class="box  col-sm-12 col-lg-3">
+        <div class="box  col-sm-12 col-lg-4">
             <img src="src/assert/cloud_pic.jpg" alt="">
             <span>
                 <h2 id="slide4_head3"></h2>
@@ -122,9 +123,9 @@
 <footer>
     <div id="form1">
         <h1>Subscribe to get Updates</h1>
-        <form action="/submit" class="row">
-            <input type="email" name="email" id="emailip" placeholder="Enter your Gmail Address" class="col-8" required>
-            <input type="button" id="btnop" value="SUBSCRIBE" onclick="event" class="col-4">
+        <form action="/submit" class="container-fluid">
+            <input type="email" name="email" id="emailip" placeholder="Enter your Gmail Address" class="col-7 col-sm-6 col-lg-6 col-xl-4  text-center" required>
+            <input type="button" id="btnop" value="SUBSCRIBE" onclick="event" class="col-4 col-sm-4 col-lg-2 col-xl-1 text-center">
         </form>
     </div>
     <div class="container">
