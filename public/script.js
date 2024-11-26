@@ -1,3 +1,20 @@
+//IoT Project list
+const iotlist = document.getElementById("iotlist")
+
+let iot_array=[
+    {project:'CHANGE LED COLOR AND ON/OFF LED THROUGH BLUETOOTH',url: 'GZXP24001.html'},
+    {project:'SMART PARKING EMAIL-NOTIFICATION SYSTEM',url: 'GZXP24002.html'},
+    {project:'SMART SECURITY INDICATION AND EMAIL NOTIFICATION SYSTEM',url: 'GZXP24003.html'},
+]
+const data=document.getElementById('iotlist')
+iot_array.forEach(items => {
+    const listItem = document.createElement('li');
+    const link = document.createElement('a');
+    link.href=items.url
+    link.textContent=items.project;
+    listItem.appendChild(link);
+    data.appendChild(listItem);
+});
 
 
 
@@ -8,16 +25,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
+/* 
 //slide4_content
 const slide4_h1=document.getElementById("slide4_head1")
 const slide4_h2=document.getElementById("slide4_head2")
@@ -35,4 +43,4 @@ slide4_p3.innerText="Our kits are competitively priced, balancing affordability 
 
 
 
-console.log("connected to Genzonix")
+console.log("connected to Genzonix") */
