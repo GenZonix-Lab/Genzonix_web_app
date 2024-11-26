@@ -2,9 +2,9 @@
 const iotlist = document.getElementById("iotlist")
 
 let iot_array=[
-    {project:'CHANGE LED COLOR AND ON/OFF LED THROUGH BLUETOOTH',url: 'GZXP24001.html'},
-    {project:'SMART PARKING EMAIL-NOTIFICATION SYSTEM',url: 'GZXP24002.html'},
-    {project:'SMART SECURITY INDICATION AND EMAIL NOTIFICATION SYSTEM',url: 'GZXP24003.html'},
+    {project:'CHANGE LED COLOR AND ON/OFF LED THROUGH BLUETOOTH',url: 'gzxproj24/GZXP24001.html'},
+    {project:'SMART PARKING EMAIL-NOTIFICATION SYSTEM',url: 'gzxproj24/GZXP24002.html'},
+    {project:'SMART SECURITY INDICATION AND EMAIL NOTIFICATION SYSTEM',url: 'gzxproj24/GZXP24003.html'},
 ]
 const data=document.getElementById('iotlist')
 iot_array.forEach(items => {
