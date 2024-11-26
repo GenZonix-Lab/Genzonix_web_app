@@ -66,7 +66,6 @@ ul li {
     padding: 5px;
     border-radius: 1.25rem !important;
     max-height: 600px;
-    width: max-content;
 }
 img:hover{
     box-shadow: 2px 2px 10px;
