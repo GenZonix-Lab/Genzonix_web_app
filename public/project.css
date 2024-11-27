@@ -54,6 +54,9 @@ h4{
     font-size:calc(60% + 0.15*5vw + 1vh);
     color: rgb(255, 244, 148);
 }
+pre{
+    color: rgb(255, 151, 208);
+}
 p{
     font-weight: 100;
     font-size:calc(30% + 0.1*5vw + 1vh);
