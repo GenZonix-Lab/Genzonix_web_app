@@ -27,7 +27,7 @@ iot_array.forEach(items => {
 
 
 
-/* 
+ 
 //slide4_content
 const slide4_h1=document.getElementById("slide4_head1")
 const slide4_h2=document.getElementById("slide4_head2")
@@ -45,4 +45,4 @@ slide4_p3.innerText="Our kits are competitively priced, balancing affordability 
 
 
 
-console.log("connected to Genzonix") */
+console.log("connected to Genzonix") 
