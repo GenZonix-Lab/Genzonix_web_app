@@ -16,3 +16,14 @@ slide4_p3.innerText = "Our kits are competitively priced, balancing affordabilit
 
 
 console.log("connected to Genzonix") 
+
+const correctValue = "think_innovate";
+document.getElementById('accesskey').addEventListener('click', (e) => {
+    e.preventDefault();
+    const input = prompt('Enter your Access key');
+    if (input === correctValue || input === "genzadmin") {
+        window.location.href = "IoT.html"; // Redirect to protected page
+    } else {
+        alert("Access Denied");
+    }
+});
