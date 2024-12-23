@@ -13,10 +13,6 @@ slide4_p1.innerText ="Genzonix offers high-quality STEM and IoT DIY kits designe
 slide4_p2.innerText ="Genzonix provides easy-to-follow guides, tutorials, and customer support, ensuring even beginners can dive into STEM projects confidently. We aim to make tech learning accessible and enjoyable, regardless of experience level."
 slide4_p3.innerText = "Our kits are competitively priced, balancing affordability with quality. We thoughtfully curate each kit to include essential components, giving customers a comprehensive, high-value experience without breaking the bank."
 
-
-
-console.log("connected to Genzonix") 
-
 const correctValue = "think_innovate";
 document.getElementById('accesskey').addEventListener('click', (e) => {
     e.preventDefault();
