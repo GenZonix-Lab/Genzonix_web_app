@@ -18,7 +18,7 @@ document.getElementById('accesskey').addEventListener('click', (e) => {
     e.preventDefault();
     const input = prompt('Enter your Access key');
     if (input === correctValue || input === "genzadmin") {
-        window.location.href = "IoT.html"; // Redirect to protected page
+        window.location.href = "/IOT/index.html"; // Redirect to protected page
     } else {
         alert("Access Denied");
     }
